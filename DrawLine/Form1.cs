@@ -12,9 +12,20 @@ namespace DrawLine
 {
     public partial class Form1 : Form
     {
+        Graphics drawarea;
         public Form1()
         {
             InitializeComponent();
+            drawarea = drawingArea.CreateGraphics();
+        }
+
+        private void btDraw_Click(object sender, EventArgs e)
+        {
+
+            Brush red = new SolidBrush(Color.Red);
+            Pen pn = new Pen(red, 8);
+            drawarea.DrawLine(pn, 10, 10, 400, 376);
+
         }
     }
 }
