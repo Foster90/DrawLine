@@ -66,7 +66,7 @@
             this.textx1.Name = "textx1";
             this.textx1.Size = new System.Drawing.Size(89, 20);
             this.textx1.TabIndex = 2;
-            this.textx1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+          
             // 
             // textx2
             // 
@@ -74,7 +74,7 @@
             this.textx2.Name = "textx2";
             this.textx2.Size = new System.Drawing.Size(89, 20);
             this.textx2.TabIndex = 3;
-            this.textx2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+        
             // 
             // texty1
             // 
